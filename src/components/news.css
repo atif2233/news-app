@@ -1,0 +1,22 @@
+.text-center{
+    animation: colorchange 20s infinite;
+    background: linear-gradient(to right, red, white, beige, pink, navy);
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+@keyframes colorchange {
+    25%{
+        background-position: 100%;
+    }
+    50%{
+        background-position: 200%;
+    }
+    75%{
+        background-position: 300%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
