@@ -14,7 +14,7 @@ const App = () => {
   
     return (
       <div className="container">
-        <Router>
+        <Router basename="/">
         <LoadingBar
         color='#f11946'
         progress={progress}

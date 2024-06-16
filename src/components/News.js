@@ -69,7 +69,7 @@ return (
   <>
     <motion.h1 className="text-center" style={{ margin: "30px 0px" , marginTop: '90px' }} variants={textVariants} initial="initial" animate="animate">
       NewsMonkey - Top {capitalizeFirstLetter(props.category)} Headlines
-      <img className="logo" src={logo} style={{backgroundSize: "cover" , width: "230px" , height: "210"}}></img>
+      <img className="logo" src={logo} style={{backgroundSize: "cover" , width: "230px" , height: "210"}} alt="logo"></img>
     </motion.h1>
     {loading && <Spinner />}
     <InfiniteScroll
