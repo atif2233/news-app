@@ -7,14 +7,14 @@ import LoadingBar from 'react-top-loading-bar'
 
 
 const App = () => {
-  const apiKey = process.env.REACT_APP_NEWS_API;
+  const apiKey = "b95a1021963f4e49b901b724f73c9a62";
   const page = 9;
   const [progress , setProgress] = useState(0);
 
   
     return (
       <div className="container">
-        <Router basename="/">
+        <Router>
         <LoadingBar
         color='#f11946'
         progress={progress}
